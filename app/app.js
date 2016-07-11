@@ -1,8 +1,6 @@
 var fido = angular.module('fideligard', ['ui.router']);
 
-
 fido.config( function( $stateProvider, $urlRouterProvider) {
-
  /// config here
   $urlRouterProvider.otherwise('/stocks');
 
